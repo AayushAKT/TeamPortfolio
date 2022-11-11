@@ -4,7 +4,9 @@ html{
     color: #222;
 }
 
-
+img{
+    pointer-events: none;
+}
 
 
 .navbar{
