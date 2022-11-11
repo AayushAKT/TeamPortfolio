@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/96f917aec7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>FantasticFour</title>
+</head>
+<body>
+    <div class="navbar">
+        <header class="text-gray-400 bg-gray-900 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg> -->
+                
+                <img src="images/arc.png" alt="" class="arc">
+
+                <span class="ml-3 text-xl">Fantastic Four</span>
+              </a>
+              <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-white" href="#home">Home</a>
+                <a class="mr-5 hover:text-white" href="#team">Team</a>
+                <a class="mr-5 hover:text-white" href="#gallery">Art Gallery</a>
+                <a class="mr-5 hover:text-white" href="#about">About</a>
+              </nav>
+              <a href="#contact">
+                <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"> Contact Us
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </button>
+              </a>
+            </div>
+          </header>
+    </div>
+
+
+
+    <div class="hero" id="home">
+        <section class="text-gray-400 bg-gray-900 body-font">
+            <div class="container px-5 py-24 mx-auto flex flex-col">
+              <div class="lg:w-4/6 mx-auto">
+                <div class="rounded-lg h-64 overflow-hidden">
+                  <img alt="content" class="object-cover object-center h-full w-full" src="images/tech.png">
+                </div>
+                <div class="flex flex-col sm:flex-row mt-10">
+                  <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+                    <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-800 text-gray-600">
+                      <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                      </svg> -->
+                      <img src="images/me.jpg" alt="" class="me">
+                    </div>
+                    <div class="flex flex-col items-center text-center justify-center">
+                      <h2 class="font-medium title-font mt-4 text-white text-lg">Aayush Kumar Tiwari</h2>
+                      <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                      <p class="text-base text-gray-400">A tech student majoring in Artificial intelligence and Machine learing at RNSIT.</p>
+                    </div>
+                  </div>
+                  <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                    <p class="leading-relaxed text-lg mb-4">Hi there!
+                        I am Aayush Kumar Tiwari, a tech student at RNSIT.
+                        BE (AI&ML) || Aspiring with Ai Tech , seeking to connect with like minded professionals in similar sector to learn and grow.
+                        <br>
+                        Excited to learn new skills as a waiter. Strong number sense and communication skills. Interested in learning in a fast-paced environment.
+                        <br>
+                        <ul class="aktskills">
+                            <label for="" class="skill">Skills</label>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>C and C++</li>
+                        </ul>
+                    </p>
+                    
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </div>
+
+
+
+    <div class="teams" id="team">
+        <section class="text-gray-400 bg-gray-900 body-font">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="text-2xl font-medium title-font mb-4 text-white tracking-widest">OUR TEAM</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">A group of enthusiastic programmers/developers debugging errors in life.
+                    <br>
+                    Pursuing AI and ML tech at RNSIT.
+                </p>
+              </div>
+              <div class="flex flex-wrap -m-4">
+                <div class="p-4 lg:w-1/2">
+                  <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="images/aryan.jpg">
+                    <div class="flex-grow sm:pl-8">
+                      <h2 class="title-font font-medium text-lg text-white">Aryan Kumar</h2>
+                      <h3 class="text-gray-500 mb-3">Team lead/Programmer</h3>
+                      <p class="mb-4"></p>
+                      <span class="inline-flex">
+                        <a class="text-gray-500" href="https://www.instagram.com/itsjust.aryan/" target="blank">
+                            <i class="fa-brands fa-instagram"></i>
+                          </a>
+                          <a class="ml-2 text-gray-500" href="https://www.linkedin.com/in/itsjust-aryan/" target="blank">
+                              <i class="fa-brands fa-linkedin-in"></i>
+                          </a>
+                          </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-4 lg:w-1/2">
+                  <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="images/me.jpg">
+                    <div class="flex-grow sm:pl-8">
+                      <h2 class="title-font font-medium text-lg text-white">Aayush Kumar Tiwari</h2>
+                      <h3 class="text-gray-500 mb-3">Developer/Programmer</h3>
+                      <p class="mb-4"> Excited to learn new skills as a newbie. Strong number sense and communication skills. Interested in learning in a fast and steady paced environment.</p>
+                      <span class="inline-flex">
+                        <a class="text-gray-500" href="https://www.instagram.com/aayush_akt/" target="blank">
+                          <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a class="ml-2 text-gray-500" href="https://www.linkedin.com/in/aayush-kumar-tiwari-35374b22a/" target="blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-4 lg:w-1/2">
+                  <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="images/ankit.jpg">
+                    <div class="flex-grow sm:pl-8">
+                      <h2 class="title-font font-medium text-lg text-white">Ankit Kumar Sharma</h2>
+                      <h3 class="text-gray-500 mb-3">Developer/Editor</h3>
+                      <p class="mb-4">BE (AI&ML) || Aspiring with Ai Tech , seeking to connect with like minded profesonals in similar sector to learn and grow.
+                        <br>
+                        Enthusiastic learner,Photo/Video Editor.
+                        <br><br>
+                        Checkout my editing work ---><a href="https://www.instagram.com/art._.gallery07/" target="blank" class="artgallery">Click here</a>
+                      </p>
+                      <span class="inline-flex">
+                        <a class="text-gray-500" href="https://www.instagram.com/mr._speed007/" target="blank">
+                            <i class="fa-brands fa-instagram"></i>
+                          </a>
+                          <a class="ml-2 text-gray-500" href="https://www.linkedin.com/in/ankit-kumar-sharma-601553254/" target="blank">
+                              <i class="fa-brands fa-linkedin-in"></i>
+                          </a>
+                          </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-4 lg:w-1/2">
+                  <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="images/babu.jpg">
+                    <div class="flex-grow sm:pl-8">
+                      <h2 class="title-font font-medium text-lg text-white">Abhishek Mahato</h2>
+                      <h3 class="text-gray-500 mb-3">Programmer/Foodie</h3>
+                      <p class="mb-4">Mera kya h bc mai to lodu hu
+                        <br>
+                        Bur ka baal.
+                      </p>
+                      <span class="inline-flex">
+                        <a class="text-gray-500" href="https://www.instagram.com/abhi_shek_mahato_/" target="blank">
+                            <i class="fa-brands fa-instagram"></i>
+                          </a>
+                          <a class="ml-2 text-gray-500" href="https://www.linkedin.com/in/abhishek-mahato-25753221b/" target="blank">
+                              <i class="fa-brands fa-linkedin-in"></i>
+                          </a>
+                          </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </div>
+
+
+
+    <div class="gallery" id="gallery">
+        <section class="text-gray-400 bg-gray-900 body-font">
+            <div class="container px-5 py-24 mx-auto flex flex-wrap">
+              <div class="flex w-full mb-20 flex-wrap">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font text-white lg:w-1/3 lg:mb-0 mb-4">Ankit's Art Gallery</h1>
+                <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">❤️ Photography | Editing 🎭 📸
+                    <br>
+                    The world revolves because of creative people.
+                </p>
+              </div>
+              <div class="flex flex-wrap md:-m-2 -m-1">
+                <div class="flex flex-wrap w-1/2">
+                  <div class="md:p-2 p-1 w-1/2">
+                    <img alt="gallery" class="w-full object-cover h-full object-center block" src="images/p3.jpg">
+                  </div>
+                  <div class="md:p-2 p-1 w-1/2">
+                    <img alt="gallery" class="w-full object-cover h-full object-center block" src="images/p4.jpg">
+                  </div>
+                  <div class="md:p-2 p-1 w-full">
+                    <img alt="gallery" class="w-full h-full object-cover object-center block" src="images/p1.jpg">
+                  </div>
+                </div>
+                <div class="flex flex-wrap w-1/2">
+                  <div class="md:p-2 p-1 w-full">
+                    <img alt="gallery" class="w-full h-full object-cover object-center block" src="images/p5.jpg">
+                  </div>
+                  <div class="md:p-2 p-1 w-1/2">
+                    <img alt="gallery" class="w-full object-cover h-full object-center block" src="images/p2.jpg">
+                  </div>
+                  <div class="md:p-2 p-1 w-1/2">
+                    <img alt="gallery" class="w-full object-cover h-full object-center block" src="images/p6.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </div>
+
+
+    <div class="about" id="about">
+      <section class="text-gray-400 body-font bg-gray-900">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h2 class="text-xs text-indigo-400 tracking-widest font-medium title-font mb-1">RNSIT</h2>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white"></h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">A breif overview of skills learnt at college during respective semisters.</p>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+              <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Physics Cycle</h2>
+              <p class="leading-relaxed text-base mb-4">Nothing related to our majors.</p>
+              <!-- <a class="text-indigo-400 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a> -->
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+              <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Chemistry Cycle</h2>
+              <p class="leading-relaxed text-base mb-4">Basic Introduction to C language and Problem sloving thorugh programming
+                <br>
+                (C language)</p>
+              <!-- <a class="text-indigo-400 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a> -->
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+              <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Third Semister</h2>
+              <p class="leading-relaxed text-base mb-4">Begining with the majors and basic JAVA programming and OOPs with JAVA.</p>
+              <!-- <a class="text-indigo-400 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a> -->
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+              <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Summer Internship</h2>
+              <p class="leading-relaxed text-base mb-4">Basic C++ and OOP , Codechef assignments.</p>
+              <!-- <a class="text-indigo-400 inline-flex items-center">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a> -->
+            </div>
+          </div>
+          <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">CV/Resume</button>
+        </div>
+      </section>
+    </div>
+
+    <div class="contact" id="contact">
+      <section class="text-gray-400 bg-gray-900 body-font relative">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-12">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Us</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">We'd love to hear from you!</p>
+          </div>
+          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2">
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="name" class="leading-7 text-sm text-gray-400">Name</label>
+                  <input type="text" id="name" name="name" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              </div>
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="email" class="leading-7 text-sm text-gray-400">Email</label>
+                  <input type="email" id="email" name="email" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <div class="relative">
+                  <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
+                  <textarea id="message" name="message" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
+              </div>
+              <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
+                <a class="text-indigo-400" id="mail">aayush82tiwari@gmail.com</a>
+                <p class="leading-normal my-5">Kengeri
+                  <br>Bengaluru, Karnataka 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+
+    <div class="footer">
+      <footer class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <!-- <a class="flex title-font font-medium items-center md:justify-start justify-center text-white"> -->
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg> -->
+            <img src="images/arc.png" alt="" class="arc">
+            <span class="ml-3 text-xl">Fantastic Four</span>
+          <!-- </a> -->
+          <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2020 Fantastic Four —
+            <a href="https://twitter.com/knyttneve" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer" id="mail">@Aayush Kumar Tiwari</a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a class="text-gray-500" href="https://www.instagram.com/itsjust.aryan/" target="blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="ml-2 text-gray-500" href="https://www.linkedin.com/in/itsjust-aryan/" target="blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            </a>
+          </span>
+        </div>
+      </footer>
+    </div>
+
+</body>
+</html>

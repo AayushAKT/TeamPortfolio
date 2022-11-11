@@ -1,0 +1,69 @@
+html{
+    scroll-behavior: smooth;
+    background: #fff;
+    color: #222;
+}
+
+
+
+
+.navbar{
+    position: sticky;
+    top: 0;
+}
+
+.navbar a{
+    margin-left: 25px;
+}
+
+
+.navbar a:hover{
+    cursor: pointer;
+}
+
+.arc{
+    width: 50px;
+    border-radius: 100%;
+}
+
+
+.me{
+    border-radius: 20px;
+}
+
+
+.aktskills li{
+    list-style-type: disc;
+}
+
+
+.skill{
+    font-weight: bold;
+}
+
+
+i{
+    font-size: 22px;
+    margin: 7px;
+}
+
+.teams a,.contact a,.footer a{
+    transition: background 1s ease;
+    border-radius: 7px;
+}
+
+.teams a:hover,.contact a:hover,.footer a:hover{
+    cursor: pointer;
+    background: whitesmoke;
+    color: black;
+    
+}
+
+.artgallery
+{
+    padding: 5px;
+}
+
+#mail{
+    padding: 7px;
+}
